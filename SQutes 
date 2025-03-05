@@ -1,4 +1,4 @@
-# API/Module authors:
+# API/Module authors: @black0re0 успешно это спиздил)
 # Thank for.... - no1!!, no1 helped us, we did everything ourselves
 # But we took one method of get messages from the Mishase's and Droox's modules
 
@@ -271,16 +271,16 @@ class ShitQuotesMod(loader.Module):
         Использование:
 
         • .fsq <@ или ID> + <текст> - квота от юзера с @ или ID + указанный текст
-        >>> .fsq @onetimeusername Вам пизда
+        >>> .fsq @black0re0 я гей 
 
         • .fsq <реплай> + <текст> - квота от юзера с реплая + указанный текст
-        >>> .fsq Я лох
+        >>> .fsq влад лаки
 
         • .fsq <@ или ID> + <текст> + -r + <@ или ID> + <текст> - квота с фейковым реплаем
-        >>> .fsq @Fl1yd спасибо -r @onetimeusername Ты крутой
+        >>> .fsq феля я гей 
 
         • .fsq <@ или ID> + <текст> + -r + <@ или ID> + <текст>; <аргументы> - квота с фейковыми мульти сообщениями
-        >>> .fsq @onetimeusername Пацаны из @sh1tchannel, ждите награду за ахуенный ботнет; @elonmuskplssuckmybigdick чево; @Fl1yd НАШ БОТНЕТ ЛУЧШИЙ -r @elonmuskplssuckmybigdick чево
+        >>> .fsq соня лучшая
         """
 
         args: str = utils.get_args_raw(message)
